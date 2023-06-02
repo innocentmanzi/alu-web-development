@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> LandingPage </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
         <div>
             <a href="">
-                <img src="logo.png" alt="Logo">
+                <img class="logo" src="logo.png" alt="Logo">
             </a>
-            <div>
-                <a href=""> COURCES </a>
-                <a href=""> PRISING </a>
-                <a href=""> LOGIN </a>
+            <div class="menu">
+                <a class="cource" href=""> COURCES </a>
+                <a class="pricing" href=""> PRISING </a>
+                <a class="login" href=""> LOGIN </a>
             </div>
         </div>
     </header>
 
-    <main>
+    <main style="background-image: url(../background.png);">
         <section class="main_part">
             <div class="center">
                 <h1> Get schooled </h1>
@@ -42,7 +41,7 @@
                     <div class="pro_1">
                         <img class="avatar" src="../avatar.png" alt="User">
                         <h3> Phillip Massey </h3>
-                        <p>
+                        <p> 
                             &laquo; Smile of the year &raquo; <br>
                             2018 - 2019
                         </p>
@@ -75,60 +74,38 @@
             </div>
         </section>
 
-
+        
     </main>
 
-    <section>
-        <div>
+    <section class="testimonials">
+        <div class="testimony">
             <img src="../avatar (4).png" alt="User">
-            <div>
+            <div class="left-test">
                 <p> « Those tutorials are concise and go straight to the point. I can’t think of a better <br>
                     place to learn smiling. And it’s so fun!
                 </p>
-                <p> Person Name </p>
-                <p> weather presenter </p>
+                <p class="person"> Person Name </p>
+                <p class="weather"> weather presenter </p>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="tutorials">
         <h1> Most <span> popular </span> tutorials </h1>
-        <div>
-            <div>
+        <div class="videos">
+            <div class="card-1">
                 <video width="255" height="154" poster="../preview.png" controls>
                     <source src="../Nature Beautiful short video 720p HD.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <h3> First Name </h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
-                <div>
-                    <img src="../avatar (5).png" alt="Author">
-                    <h3> Phillip Massey </h3>
-                </div>
-                <div>
-                    <div>
-                        <img src="../Star_4.png" alt="Star Rating">
-                        <img src="../Star_4.png" alt="Star Rating">
-                        <img src="../Star_4.png" alt="Star Rating">
-                        <img src="../Star_4.png" alt="Star Rating">
-                        <img src="../Star_5.png" alt="Star Rating"><span> 8 Min </span>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <video width="255" height="154" poster="../preview (1).png" controls>
-                    <source src="../Nature Beautiful short video 720p HD.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3> First Last Name </h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
+                <h3 class="card"> First Name </h3>
+                <p class="lorem"> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
                 <div>
                     <img src="../avatar (5).png" alt="Author">
                     <h3 class="card-star"> Phillip Massey </h3>
                 </div>
-                <div>
-                    <div>
+                <div class="star">
+                    <div class="star-star">
                         <img src="../Star_4.png" alt="Star Rating">
                         <img src="../Star_4.png" alt="Star Rating">
                         <img src="../Star_4.png" alt="Star Rating">
@@ -137,20 +114,42 @@
                     </div>
                 </div>
             </div>
-
-            <div>
+    
+            <div class="card-2">
+                <video width="255" height="154" poster="../preview (1).png" controls>
+                    <source src="../Nature Beautiful short video 720p HD.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="card"> First Last Name </h3>
+                <p class="lorem"> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
+                <div>
+                    <img src="../avatar (5).png" alt="Author">
+                    <h3 class="card-star"> Phillip Massey </h3>
+                </div>
+                <div class="star">
+                    <div class="star-star">
+                        <img src="../Star_4.png" alt="Star Rating">
+                        <img src="../Star_4.png" alt="Star Rating">
+                        <img src="../Star_4.png" alt="Star Rating">
+                        <img src="../Star_4.png" alt="Star Rating">
+                        <img src="../Star_5.png" alt="Star Rating"><span> 8 Min </span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-3">
                 <video width="255" height="154" poster="../preview (2).png" controls>
                     <source src="../Nature Beautiful short video 720p HD.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <h3> First Last Name </h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
+                <h3 class="card"> First Last Name </h3>
+                <p class="lorem"> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
                 <div>
                     <img src="../avatar (5).png" alt="Author">
-                    <h3> Phillip Massey </h3>
+                    <h3 class="card-star"> Phillip Massey </h3>
                 </div>
-                <div>
-                    <div>
+                <div class="star">
+                    <div class="star-star">
                         <img src="../Star_4.png" alt="Star Rating">
                         <img src="../Star_4.png" alt="Star Rating">
                         <img src="../Star_4.png" alt="Star Rating">
@@ -159,20 +158,20 @@
                     </div>
                 </div>
             </div>
-
-            <div>
+    
+            <div class="card-4">
                 <video width="255" height="154" poster="../preview (3).png" controls>
                     <source src="../Nature Beautiful short video 720p HD.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <h3> First Last Name </h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
+                <h3 class="card"> First Last Name </h3>
+                <p class="lorem"> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod </p>
                 <div>
                     <img src="../avatar (5).png" alt="Author">
-                    <h3> Phillip Massey </h3>
+                    <h3 class="card-star"> Phillip Massey </h3>
                 </div>
-                <div>
-                    <div>
+                <div class="star">
+                    <div class="star-star">
                         <img src="../Star_4.png" alt="Star Rating">
                         <img src="../Star_4.png" alt="Star Rating">
                         <img src="../Star_4.png" alt="Star Rating">
@@ -185,25 +184,25 @@
         </div>
     </section>
 
-    <section>
+    <section class="free-membership">
         <h1> Free <span> membership </span> </h1>
-        <div>
-            <div>
+        <div class="membership">
+            <div class="membership-1">
                 <img src="../smile.png" alt="Membership" srcset="">
                 <h3> Lorem ipsum </h3>
                 <p> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. </p>
             </div>
-            <div>
+            <div class="membership-2">
                 <img src="../smile.png" alt="Membership" srcset="">
                 <h3> Lorem ipsum </h3>
                 <p> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. </p>
             </div>
-            <div>
+            <div class="membership-3">
                 <img src="../smile.png" alt="Membership" srcset="">
                 <h3> Lorem ipsum </h3>
                 <p> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. </p>
             </div>
-            <div>
+            <div class="membership-4">
                 <img src="../smile.png" alt="Membership" srcset="">
                 <h3> Lorem ipsum </h3>
                 <p> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. </p>
@@ -212,13 +211,13 @@
         <button type="submit"> REGISTER FOR FREE </button>
     </section>
 
-    <section>
+    <section class="faq">
         <h1> F.A.Q </h1>
-        <div>
-            <div>
-                <div>
+        <div class="faq-que">
+            <div class="row">
+                <div class="row-6">
                     <h3> How does this work? </h3>
-                    <p>
+                    <p> 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
                         sed do eiusmod tempor incididunt ut labore et dolore magna <br>
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
@@ -226,12 +225,12 @@
                         Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint <br>
                         occaecat cupidatat non proident, sunt in culpa qui officia <br>
-                        deserunt mollit anim id est laborum.
+                         deserunt mollit anim id est laborum. 
                     </p>
                 </div>
-                <div>
+                <div class="row-6-1">
                     <h3> How does this work? </h3>
-                    <p>
+                    <p> 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
                         sed do eiusmod tempor incididunt ut labore et dolore magna <br>
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
@@ -243,10 +242,10 @@
                     </p>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="row-2">
+                <div class="row-6">
                     <h3> How does this work? </h3>
-                    <p>
+                    <p> 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
                         sed do eiusmod tempor incididunt ut labore et dolore magna <br>
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
@@ -254,12 +253,12 @@
                         Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint <br>
                         occaecat cupidatat non proident, sunt in culpa qui officia <br>
-                        deserunt mollit anim id est laborum.
+                         deserunt mollit anim id est laborum. 
                     </p>
                 </div>
-                <div>
+                <div class="row-6-1">
                     <h3> How does this work? </h3>
-                    <p>
+                    <p> 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
                         sed do eiusmod tempor incididunt ut labore et dolore magna <br>
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
@@ -267,7 +266,7 @@
                         Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint <br>
                         occaecat cupidatat non proident, sunt in culpa qui officia <br>
-                        deserunt mollit anim id est laborum.
+                         deserunt mollit anim id est laborum. 
                     </p>
                 </div>
             </div>
@@ -276,19 +275,22 @@
 
     <footer>
         <div>
-            <div>
-                <div>
+            <div class="row">
+                <div class="logo">
                     <img src="logo.png" alt="Logo">
                 </div>
-                <div>
-                    <a>
-                        <img src="../Facebook_White.png" alt="Facebook" srcset="">
+                <div class="social-media">
+                    <a class="facebook">
+                        <img src="../Facebook_White.png"
+                            alt="Facebook" srcset="">
                     </a>
-                    <a>
-                        <img src="../Twitter_White.png" alt="Twitter" srcset="">
+                    <a class="twitter">
+                        <img src="../Twitter_White.png"
+                            alt="Twitter" srcset="">
                     </a>
-                    <a>
-                        <img src="../Instagram_White.png" alt="Instagram" srcset="">
+                    <a class="isnta">
+                        <img src="../Instagram_White.png"
+                            alt="Instagram" srcset="">
                     </a>
                 </div>
             </div>
@@ -296,5 +298,4 @@
         </div>
     </footer>
 </body>
-
 </html>
